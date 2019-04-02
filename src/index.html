@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="styles.css" />
+		<script
+			src="http://code.jquery.com/jquery-3.3.1.min.js"
+			integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<!-- <header class="header">
+			<nav>
+				<a href="" class="logo">CSS Nav</a>
+				<input class="menu-btn" type="checkbox" id="menu-btn" />
+				<label class="menu-icon" for="menu-btn"
+					><span class="navicon"></span
+				></label>
+				<ul class="menu">
+					<li><a href="#work">Our Work</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#careers">Careers</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</header> -->
+
+		<header>
+			<nav class="nav">
+				<ul class="menu">
+					<li class="menu-item">
+						<a href="" class="menu-item-label">Home</a>
+					</li>
+					<li class="menu-item">
+						<a href="" class="menu-item-label">Our Work</a>
+						<ul class="sub-menu">
+							<li class="sub-menu-list-item">item 1</li>
+							<li class="sub-menu-list-item">item 2</li>
+							<li class="sub-menu-list-item">item 3</li>
+						</ul>
+					</li>
+					<li class="menu-item">
+						<a href="" class="menu-item-label">About</a>
+						<ul class="sub-menu">
+							<li class="sub-menu-list-item">item 1</li>
+							<li class="sub-menu-list-item">item 2</li>
+							<li class="sub-menu-list-item">item 3</li>
+						</ul>
+					</li>
+					<li class="menu-item">
+						<a href="" class="menu-item-label">Careers</a>
+						<ul class="sub-menu">
+							<li class="sub-menu-list-item">item 1</li>
+							<li class="sub-menu-list-item">item 2</li>
+							<li class="sub-menu-list-item">item 3</li>
+						</ul>
+					</li>
+					<li class="menu-item">
+						<a href="" class="menu-item-label">Contact Us</a>
+						<ul class="sub-menu">
+							<li class="sub-menu-list-item">item 1</li>
+							<li class="sub-menu-list-item">item 2</li>
+							<li class="sub-menu-list-item">item 3</li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<div class="flex-container">
+			<form class="form-container" name="sign-up-form" id="sign-up-form">
+				<div class="form-control">
+					<label class="input-label">Username</label>
+					<div class="form-input-container">
+						<input class="form-input" type="text" name="username" />
+						<div class="error-container hide"></div>
+					</div>
+				</div>
+				<div class="form-control">
+					<label class="input-label">Password</label>
+					<div class="form-input-container">
+						<input
+							class="form-input"
+							type="password"
+							name="password"
+						/>
+						<div class="error-container hide"></div>
+					</div>
+				</div>
+				<div class="form-control button-container">
+					<button class="button submit-button" type="submit">
+						Sign Me Up!
+					</button>
+				</div>
+			</form>
+		</div>
+		<script src="validate.js"></script>
+	</body>
+</html>

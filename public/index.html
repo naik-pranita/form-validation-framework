@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Form Validation example</title>
+		<link rel="stylesheet" href="styles.css" />
+		<script
+			src="http://code.jquery.com/jquery-3.3.1.min.js"
+			integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<div class="flex-container">
+			<form name="sign-up-form" id="sign-up-form" class="form-container">
+				<div class="form-control">
+					<label class="form-label">Username</label>
+					<div class="input-container">
+						<input type="text" class="form-input" name="username" />
+						<div class="error-container hide"></div>
+					</div>
+				</div>
+				<div class="form-control">
+					<label class="form-label">Password</label>
+					<div class="input-container">
+						<input
+							type="password"
+							class="form-input"
+							name="password"
+						/>
+						<div class="error-container hide"></div>
+					</div>
+				</div>
+				<div class="form-control button-container">
+					<button
+						class="button button-submit"
+						type="submit"
+						id="sign-up"
+						name="sign-up-button"
+					>
+						Sign Me Up!
+					</button>
+				</div>
+			</form>
+		</div>
+
+		<script src="validate.js"></script>
+	</body>
+</html>
